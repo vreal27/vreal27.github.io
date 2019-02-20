@@ -1,7 +1,7 @@
 html {
   box-sizing:border-box;
   font-family:'Slabo 27px', monospace;
-  color:#333;
+  color:rgb(51, 51, 51);
 }
 
 *, *:before, *:after {
@@ -43,10 +43,11 @@ body {
 
 .main {
   border-radius:5px;
-  background:white;
+  background:#426285af;
   width:430px;
   box-shadow: 5px 10px 20px rgba(100,100,100,.3);
   z-index:2;
+  margin-right: 50px;
 }
 
 .page {
@@ -62,7 +63,7 @@ body {
 }
 
 .bg {
-  background:url(bg.jpg);
+  background:url(space.jpeg);
   background-size:cover;
   background-position:center center;
   overflow:hidden;
@@ -72,19 +73,19 @@ body {
   border-radius:5px 5px 0 0;
 }
 
-.bg:before, .bg:after {
+/* .bg:before, .bg:after {
   content: '';
   position: absolute;
   left: -25%;
   bottom: -198px;
   width: 700px;
   height: 200px;
-  background: #ffffff;
+  background:#426285;
   transform: rotate(12deg);
   -webkit-transform: rotate(12deg);
   -moz-transform: rotate(12deg);
   -o-transform: rotate(12deg);
-}
+} 
 
 .bg:after {
   left: auto;
@@ -93,7 +94,7 @@ body {
   -webkit-transform: rotate(-6deg);
   -moz-transform: rotate(-6deg);
   -o-transform: rotate(-6deg);
-}
+}  */
 
 .image {
   border-radius:50%;
@@ -104,7 +105,7 @@ body {
   position:absolute;
   left:144px;
   top:210px;
-  background:url(face.jpg);
+  background:url(profile_pic.png);
   background-size:cover;
   background-position:center center;
   box-shadow: 5px 10px 20px rgba(100,100,100,.3);
@@ -115,11 +116,12 @@ h1, h3 {
 }
 
 .name {
+  color: #102d22;
   margin:100px 0 0 0;
 }
 
 .position {
-  color:#2eca7f;
+  color:#75b89f;
   font-weight:normal;
 }
 
@@ -143,7 +145,7 @@ h1, h3 {
 }
 
 .social a:hover {
-  color:#2eca7f;
+  color:#75b89f;
 }
 
 .heading:first-child {
@@ -199,4 +201,8 @@ section.info p {
 
 .css3 {
   color: rgb(33, 68, 224);
+}
+
+.fa-mobile-alt {
+  margin-left: 20px; 
 }
